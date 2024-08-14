@@ -1,0 +1,290 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #FFFFFF;
+    background-color: black;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: transparent;
+    z-index: 1000;
+}
+
+header .logo img {
+    width: 190px;
+    padding-top: 20px;
+    margin-left: 80px;
+
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+    flex: 1;
+    margin-right: 80px;
+}
+
+header nav ul li {
+    margin-left: 30px;
+    margin-right: 40px;
+}
+
+header nav ul li a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: 'montM';
+}
+
+.hero {
+    background: url('imag1/unsplash_35J2ODtMdPU.png') no-repeat center center/cover;
+    
+    height: 730px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    padding-left: 40px;
+ 
+    
+}
+
+.divhero {
+   
+    background: linear-gradient(rgba(30, 30, 30, 0), rgba(0, 0, 0, 1));
+    height: 730px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: left;
+    padding-left: 40px;
+    opacity: 1;
+    overflow: hidden;
+ 
+    
+}
+
+
+.hero .content {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    margin-top: 0%;
+    background: transparent;
+    margin-left: 5%;
+}
+
+.hero h1 {
+    font-size: 128px;
+    margin: 0;
+
+    font-family:'montB' ;
+
+}
+
+.hero button {
+    margin-top: 20px;
+    padding: 11px 40px;
+    font-size: 20px;
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    background:
+    rgba(113, 111, 109, 0.699999988079071);
+    border: #FFFFFF solid 1px;
+    border-radius: 10px;
+    font-family: 'montM';
+}
+
+.hero button:hover {
+    background:transparent;
+    border: #FFFFFF solid 1px;
+    font-family: 'montM';
+}
+
+.about {
+    padding: 40px 20px;
+    background-color: #0a0a0a;
+    text-align: center;
+    margin-top: 80px;
+}
+
+.about-content p {
+    margin-top: 120px;
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.6;
+    font-size: 16px;
+    margin-bottom: 100px;
+    font-family: 'montM';
+}
+
+.contacts {
+    display: flex;
+    justify-content: center;
+    gap: 60px; /* Aumenta o espaçamento entre os itens de contato */
+    padding: 40px 0; /* Ajusta o padding para alinhar os itens verticalmente */
+    background-color: #000000;
+    margin-bottom: 56px;
+}
+
+.contact-item {
+    text-align: center;
+    flex: 1;
+    max-width: 180px; /* Define uma largura máxima para os itens de contato */
+}
+
+.contact-item img {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+.contact-item span {
+    display: block;
+    color: #FFFFFF;
+    font-size: 16px;
+    margin-bottom: 10px;
+    font-family: 'montM';
+}
+
+.contact-item span:last-child {
+    font-size: 14px; /* Ajusta o tamanho da fonte dos números de telefone */
+    line-height: 1.6; /* Melhora o espaçamento entre as linhas dos números de telefone */
+}
+
+
+.location-item {
+    margin-bottom: 20px;
+    
+}
+
+.location-item img {
+    width: 50px;
+    margin-bottom: 10px;
+}
+
+.location-item span {
+    display: block;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-family: 'montM';
+}
+
+.footer-container {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: 0 60px;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+
+.footer-logo {
+    text-align: left;
+}
+
+.footer-logo img {
+    width: 300px;
+    margin-right: 50px;
+}
+
+.footer-info {
+    text-align: left;
+    margin-left: 20px;
+    gap: 1px;
+
+}
+
+.footer-info h4 {
+    margin: 0;
+    font-size: 16px;
+    font-family: 'montM';
+    margin-top: 20px;
+
+}
+
+
+
+.footer-info p {
+    margin: 5px 0;
+    font-size: 17px;
+    font-family: 'montL';
+    max-width: 300px;
+
+   
+}
+
+
+
+
+.footer-info a {
+    color: #FFFFFF;
+    text-decoration: underline;
+    
+}
+
+.footer-divider {
+    border: 0.5px solid #444;
+    margin: 20px 0;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Ajusta o espaçamento entre os ícones */
+    padding: 20px 0;
+}
+
+.footer-social a img {
+    width: 27px; /* Ajusta o tamanho dos ícones */
+    transition: transform 0.3s ease;
+}
+
+.footer-social a img:hover {
+    transform: scale(1.1); /* Aumenta o ícone quando o mouse passa por cima */
+}
+
+.footer-bottom-text {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'montL';
+}
+
+@font-face {
+    font-family: 'montB';
+    src: url('font/Montserrat-Bold.ttf');
+}
+@font-face {
+    font-family: 'montM';
+    src: url('font/Montserrat-Medium.ttf');
+}
+@font-face {
+    font-family: 'montL';
+    src: url('font/Montserrat-Light.ttf');
+}
+
+
+
